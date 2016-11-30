@@ -1,4 +1,4 @@
-/*Mobile First*/
+o/*Mobile First*/
 body{
     max-width: 600px;
     margin: auto;
@@ -13,13 +13,13 @@ body{
     align-items: flex-end;
 }
 
-.main-title,
-.shadow,
-.dot{
+.hero-main-title,
+.hero-shadow,
+.hero-dot{
     position: relative;
 }
 
-.shadow{
+.hero-shadow{
     background-color: black;
     opacity: .7;
     height: 4em;
@@ -37,7 +37,7 @@ h1{
     text-align: right;
 }
 
-.dot{
+.hero-dot{
     width: 1em;
     height: 1em;
     border-radius: 50px;
@@ -45,8 +45,8 @@ h1{
     margin: 1.4em;
 }
 
-.main-title,
-.dot{
+.hero-main-title,
+.hero-dot{
     margin-right: 1em;
 }
 /*Merchandise section CSS - James*/
