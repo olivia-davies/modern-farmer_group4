@@ -162,3 +162,170 @@ h1{
 		max-width: 1200px;
     		margin: auto;
 	}
+/* Header for media*/
+	header{
+background-image: url(http://i.imgur.com/QonFtE7.png);
+  background-repeat: no-repeat;
+  position: relative;
+  left: 400px;
+  top: 00px;
+}
+ul {
+    list-style-type: none;
+    list-style-position: outside;
+    width: 900px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+    left: 400px;
+    top: 00px;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:  #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+.Subscribe {
+    background-color: #4CAF50;
+}
+.active {
+    background-color: #000000;
+    color: white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.circle{
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: yellow;
+  top: -31px;
+  left: 395px;
+  position: relative;
+}
+.circle2{
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: red;
+  top: -47px;
+  left: 460px;
+  position: relative;
+}
+.circle3{
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: green;
+  top: -63px;
+  left: 550px;
+  position: relative;
+}
+.circle4{
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: purple;
+  top: -79px;
+  left: 620px;
+  position: relative;
+}
+.circle5{
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: orange;
+  top: -95px;
+  left: 705px;
+  position: relative;
+}
+.circle6{
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: blue;
+  top: -110px;
+  left: 810px;
+  position: relative;
+}.circle7{
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: gray;
+  top: -127px;
+  left: 906px;
+  position: relative;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
