@@ -49,6 +49,23 @@ h1{
 .hero-dot{
     margin-right: 1em;
 }
+/*Trending section Css - Kaitlyn*/
+  <div class="trending">
+<div class="title">
+  <h2>trending</h2>
+  <img class="egg" src="assets/turkeyegg.jpg" width="788" height="788" alt=""/><div class="turkey"><p>
+    <h3>Why Dont We Eat Turkey Eggs?</h3>
+    <br>By all accounts they taste pretty good!</p></div></div>
+<div class="title">
+<img class="corn" src="assets/corn.jpg" width="535" height="535" alt=""/><div class="foods"><p>
+  <h3> What Foods Were Served At The First Thanksgiving?</h3>
+  <br> Was it Even Turkey?</p></div></div>
+<div class="title">
+<img class="img3" src="assets/teacup-pig.jpg" width="742" height="742" alt=""/><div class="piggy">
+  <h3>Never Buy A Teacup Pig.</h3>
+  <br><p>It will grow up to weigh more than you.</p></div></div>
+</div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 /*Merchandise section CSS - James*/
 .merchandise{
   float:right;
