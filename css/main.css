@@ -69,12 +69,12 @@ h1{
 }
 
 .Merch1,
-.shadow,
-.dot{
+.shadow1,
+.dot1{
     position: relative;
 }
 
-.shadow{
+.shadow1{
     background-color: black;
     opacity: .7;
     top:-4.3em;
@@ -93,7 +93,7 @@ h1{
     text-align: right;
 }
 
-.dot{
+.dot1{
     width: 15px;
     height: 15px;
     border-radius: 50px;
@@ -102,7 +102,7 @@ h1{
 }
 
 .Merch1,
-.dot{
+.dot1{
   margin-right: 1em;
 }
 /* second image */
