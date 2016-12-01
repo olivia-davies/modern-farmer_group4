@@ -49,6 +49,54 @@ h1{
 .hero-dot{
     margin-right: 1em;
 }
+/*Trending section CSS - Kaitlyn*/
+.trending{
+	background-color: #efefef;
+	margin: -440px 600px;
+	height: 1200px;
+	width: 600px
+	}
+.egg{
+	width:300px;
+	height: 300px;
+	margin: 0px 30px
+	}
+	.turkey{
+		position: absolute;
+		width: 250px;
+		height:300px;
+		margin: -300px 350px}
+.corn{
+	width:300px;
+	height: 300px;
+	margin: 0px 30px;
+	}
+	.foods{
+		position: absolute;
+		width: 250px;
+		height:300px;
+		margin: -300px 350px}
+.img3{
+	width:300px;
+	height:300px;
+	margin: 0px 30px;
+	}
+	.piggy{
+		position: absolute;
+		width: 250px;
+		height:300px;
+		margin: -300px 350px}
+h2{ 
+	font-family: "Helvetica neue";
+	font-size: 1.5 em;
+	color: a9a9a9;
+	}
+h3 {
+	margin: -10px ;
+	font-family: "Helvetica neue";
+	font-size: 1.5 em;
+	color: a9a9a9;
+		}
 /*Merchandise section CSS - James*/
 .merchandise{
   float:right;
