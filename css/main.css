@@ -29,6 +29,7 @@ body{
     flex-grow: 1;
 }
 
+
 h1{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: white;
@@ -48,58 +49,61 @@ h1{
 .hero-dot{
     margin-right: 1em;
 }
-
-
 /*Trending section CSS - Kaitlyn*/
 .trending{
+  position: absolute;
 	background-color: #efefef;
-	margin: -440px 600px;
-	height: 1200px;
+	display: flex;
+  align-items: vertical;
+	height: 1500px;
 	width: 600px
 	}
 .egg{
+  position:relative;
 	width:300px;
 	height: 300px;
-	margin: 0px 30px
+	display: flex;
+  align-items: vertical;
+  margin: 0px 5px
 	}
 	.turkey{
-		position: absolute;
+    position: relative;
 		width: 250px;
 		height:300px;
 		margin: -300px 350px}
 .corn{
+  position:absolute;
 	width:300px;
 	height: 300px;
-	margin: 0px 30px;
+	display: flex;
+  margin: 10px 5px;
 	}
 	.foods{
-		position: absolute;
 		width: 250px;
 		height:300px;
-		margin: -300px 350px}
+		margin: 300px 340px;
+}
 .img3{
+  position: absolute;
 	width:300px;
 	height:300px;
-	margin: 0px 30px;
+	display: flex;
+  margin: 10px 5px
 	}
 	.piggy{
-		position: absolute;
 		width: 250px;
 		height:300px;
-		margin: -300px 350px}
+		margin: -200px 330px;}
 h2{ 
 	font-family: "Helvetica neue";
 	font-size: 1.5 em;
 	color: a9a9a9;
 	}
 h3 {
-	margin: -10px ;
 	font-family: "Helvetica neue";
 	font-size: 1.5 em;
 	color: a9a9a9;
 		}
-
-
 /*Merchandise section CSS - James*/
 .merchandise{
   float:right;
@@ -206,7 +210,6 @@ h3 {
   margin-right: 1em;
 }
 /* End of Merchandise section */
-
 /*FOOTER STARTS HERE */
 .footer {
   position: Absolute;
@@ -231,24 +234,17 @@ li {
 p{
   color: white
 }
-.facebook,
-.instagram,
-.pinterest,
-.twitter{
-  width:50px;
-  height:50px;
-}
 /*FOOTER ENDS HERE */
-
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
 	body{
 		max-width: 1200px;
     		margin: auto;
 	}
-	
 /* Header for media*/
 	header{
+background-image: url(http://i.imgur.com/QonFtE7.png);
+  background-repeat: no-repeat;
   position: relative;
   left: 400px;
   top: 00px;
@@ -278,20 +274,73 @@ li a {
     text-decoration: none;
 }
 
+
 li a:hover {
     background-color: #555;
     color: white;
 }
-	
 .Subscribe {
     background-color: #4CAF50;
 }
-	
 .active {
     background-color: #000000;
     color: white;
 }
-	
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 .circle{
   width: 1em;
   height: 1em;
@@ -301,7 +350,6 @@ li a:hover {
   left: 395px;
   position: relative;
 }
-	
 .circle2{
   width: 1em;
   height: 1em;
@@ -311,7 +359,6 @@ li a:hover {
   left: 460px;
   position: relative;
 }
-	
 .circle3{
   width: 1em;
   height: 1em;
@@ -321,7 +368,6 @@ li a:hover {
   left: 550px;
   position: relative;
 }
-	
 .circle4{
   width: 1em;
   height: 1em;
@@ -331,7 +377,6 @@ li a:hover {
   left: 620px;
   position: relative;
 }
-	
 .circle5{
   width: 1em;
   height: 1em;
@@ -341,7 +386,6 @@ li a:hover {
   left: 705px;
   position: relative;
 }
-	
 .circle6{
   width: 1em;
   height: 1em;
@@ -359,13 +403,14 @@ li a:hover {
   left: 906px;
   position: relative;
 }
-/*end of Header*/
-	
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
 /* CSS for Most Recent START */
   * {
     box-sizing: border-box;
 }
-	
 [class*="col-"] {
     float: left;
   width:49%;
@@ -374,20 +419,17 @@ li a:hover {
 html {
     font-family: "Lucida Sans", sans-serif;
 }
-	
 .header {
   text-align: left;
     background-color: black;
     color: #ffffff;
     padding: 2px;
 }
-	
 .menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-	
 .menu li {
     padding: 8px;
     margin-bottom: 7px;
@@ -401,59 +443,9 @@ html {
 }
 /* CSS for Most Recent END */
 	
-	
 /* CSS for trending desktop*/
-.trending{
-	background-color: #efefef;
-	margin: -440px 600px;
-	height: 1200px;
-	width: 600px;
-	display: flex;
-	}
-.egg{
-	width:300px;
-	height: 300px;
-	margin: 0px 30px
-	}
-	
-.turkey{
-	position: absolute;
-	width: 250px;
-	height:300px;
-	margin: -300px 350px}
-	
-.corn{
- 	width:300px;
- 	height: 300px;
- 	margin: 0px 30px;
- 	}
-	
-.foods{
-	position: absolute;
-	width: 250px;
-	height:300px;
-	margin: -300px 350px}
-.img3{
- 	width:300px;
- 	height:300px;
- 	margin: 0px 30px;
- 	}
-	
-.piggy{
-	position: absolute;
-	width: 250px;
-	height:300px;
-	margin: -300px 350px}
-	
-h2{ 
- 	font-family: "Helvetica neue";
- 	font-size: 1.5 em;
- 	color: a9a9a9;
- 	}
-	
-h3 {
-	margin: -10px ;
- 	font-family: "Helvetica neue";
- 	font-size: 1.5 em;
- 	color: a9a9a9;
- 		}
+  .trending{
+    float:right;
+    align-content: horizontal;
+    display: flex;
+  }
