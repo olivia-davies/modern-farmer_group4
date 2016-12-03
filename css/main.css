@@ -361,11 +361,7 @@ li a:hover {
   left: 906px;
   position: relative;
 }
-
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
-	
+/*end of Header*/
 	
 /* CSS for Most Recent START */
   * {
