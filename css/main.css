@@ -203,7 +203,43 @@ h3 {
   margin-right: 1em;
 }
 /* End of Merchandise section */
+/*FOOTER STARTS HERE */
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.site-footer, .page-wrap:after {
+  height: 142px; 
+}
+.site-footer {
+  background: #a9a9a9;
+}
+ul {
+    list-style-type: none;
+    margin: -5px;
+    padding: 0;
+    overflow: hidden;
+}
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    color: white;
+}
+p{
+  color: white;
+}
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
 	body{
