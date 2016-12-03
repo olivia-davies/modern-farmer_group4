@@ -29,7 +29,6 @@ body{
     flex-grow: 1;
 }
 
-
 h1{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: white;
@@ -49,6 +48,8 @@ h1{
 .hero-dot{
     margin-right: 1em;
 }
+
+
 /*Trending section CSS - Kaitlyn*/
 .trending{
 	background-color: #efefef;
@@ -97,6 +98,8 @@ h3 {
 	font-size: 1.5 em;
 	color: a9a9a9;
 		}
+
+
 /*Merchandise section CSS - James*/
 .merchandise{
   float:right;
@@ -203,37 +206,16 @@ h3 {
   margin-right: 1em;
 }
 /* End of Merchandise section */
-/*FOOTER STARTS HERE */
-.footer {
-  position: Absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #a9a9a9;
-  text-align: center;
-}
-ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0;
-    overflow: hidden;
-}
-li {
-    float: left;
-    color:white;
-    margin:5px;
-}
-p{
-  color: white
-}
-/*FOOTER ENDS HERE */
+
+
+
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
 	body{
 		max-width: 1200px;
     		margin: auto;
 	}
+	
 /* Header for media*/
 	header{
 background-image: url(http://i.imgur.com/QonFtE7.png);
@@ -267,18 +249,20 @@ li a {
     text-decoration: none;
 }
 
-
 li a:hover {
     background-color: #555;
     color: white;
 }
+	
 .Subscribe {
     background-color: #4CAF50;
 }
+	
 .active {
     background-color: #000000;
     color: white;
 }
+	
 .dropdown {
     position: relative;
     display: inline-block;
@@ -297,6 +281,7 @@ li a:hover {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+	
 .dropbtn {
     background-color: #4CAF50;
     color: white;
@@ -343,6 +328,7 @@ li a:hover {
   left: 395px;
   position: relative;
 }
+	
 .circle2{
   width: 1em;
   height: 1em;
@@ -352,6 +338,7 @@ li a:hover {
   left: 460px;
   position: relative;
 }
+	
 .circle3{
   width: 1em;
   height: 1em;
@@ -361,6 +348,7 @@ li a:hover {
   left: 550px;
   position: relative;
 }
+	
 .circle4{
   width: 1em;
   height: 1em;
@@ -370,6 +358,7 @@ li a:hover {
   left: 620px;
   position: relative;
 }
+	
 .circle5{
   width: 1em;
   height: 1em;
@@ -379,6 +368,7 @@ li a:hover {
   left: 705px;
   position: relative;
 }
+	
 .circle6{
   width: 1em;
   height: 1em;
@@ -400,10 +390,13 @@ li a:hover {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
+	
+	
 /* CSS for Most Recent START */
   * {
     box-sizing: border-box;
 }
+	
 [class*="col-"] {
     float: left;
   width:49%;
@@ -412,17 +405,20 @@ li a:hover {
 html {
     font-family: "Lucida Sans", sans-serif;
 }
+	
 .header {
   text-align: left;
     background-color: black;
     color: #ffffff;
     padding: 2px;
 }
+	
 .menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+	
 .menu li {
     padding: 8px;
     margin-bottom: 7px;
@@ -435,6 +431,7 @@ html {
     background-color: #F0F0F0 ;
 }
 /* CSS for Most Recent END */
+	
 	
 /* CSS for trending desktop*/
 .trending{
@@ -449,37 +446,43 @@ html {
 	height: 300px;
 	margin: 0px 30px
 	}
-	.turkey{
-		position: absolute;
- 		width: 250px;
-		height:300px;
-		margin: -300px 350px}
- +.corn{
- +	width:300px;
- +	height: 300px;
- +	margin: 0px 30px;
- +	}
- +	.foods{
- +		position: absolute;
- +		width: 250px;
- +		height:300px;
- +		margin: -300px 350px}
- .img3{
+	
+.turkey{
+	position: absolute;
+	width: 250px;
+	height:300px;
+	margin: -300px 350px}
+	
+.corn{
+ 	width:300px;
+ 	height: 300px;
+ 	margin: 0px 30px;
+ 	}
+	
+.foods{
+	position: absolute;
+	width: 250px;
+	height:300px;
+	margin: -300px 350px}
+.img3{
  	width:300px;
  	height:300px;
  	margin: 0px 30px;
  	}
- 	.piggy{
- 		position: absolute;
- 		width: 250px;
- 		height:300px;
- 		margin: -300px 350px}
- h2{ 
+	
+.piggy{
+	position: absolute;
+	width: 250px;
+	height:300px;
+	margin: -300px 350px}
+	
+h2{ 
  	font-family: "Helvetica neue";
  	font-size: 1.5 em;
  	color: a9a9a9;
  	}
- h3 {
+	
+h3 {
 	margin: -10px ;
  	font-family: "Helvetica neue";
  	font-size: 1.5 em;
